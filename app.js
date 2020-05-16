@@ -10,6 +10,4 @@ app.get("/", function(req, res){
 })
 
 
-app.listen(process.env.PORT, function(){
-	console.log("Starting port 3111 ");
-});
+app.listen(port, () => console.log(`url-shortener listening on port ${port}!`));
