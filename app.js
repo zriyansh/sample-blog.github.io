@@ -10,6 +10,6 @@ app.get("/", function(req, res){
 })
 
 
-app.listen(port, function(){
+app.listen(process.env.PORT, function(){
 	console.log("Starting port 3111 ");
 });
